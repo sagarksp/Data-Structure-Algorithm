@@ -11,4 +11,4 @@ function searchElement(arr,x){
     return -1;
 }
 let result = searchElement(arr,8)
-console.log("index = "+ result)
+console.log("index = "+ result) 
