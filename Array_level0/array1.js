@@ -8,3 +8,4 @@ for(let i=0;i<arr.length;i++){
         console.log("odd number " + arr[i])
     }
 }
+//working with the array and function and loops
