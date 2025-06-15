@@ -22,3 +22,6 @@ function counter(n){
 
 
 console.log(counter(-256))
+
+//math.cueil
+//math.random
