@@ -15,6 +15,6 @@ function remove(nums,val){
 }
 
 let nums = [0,1,2,2,3,0,4,0,2]
-let val  = 3
+let val  = 3 
 
 console.log(remove(nums,val))
