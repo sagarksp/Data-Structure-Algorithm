@@ -1,5 +1,5 @@
 function odd(n){
-    let isOdd = n%2!=0 ;
+    let isOdd = arr[n]%2!=0 ;
     if(n==0){
         return isOdd?arr[0]:0
     }
