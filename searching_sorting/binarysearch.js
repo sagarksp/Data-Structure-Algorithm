@@ -15,11 +15,9 @@ var search = function(nums, target) {
              
              
         }
-        else{
-            right = middle-1
-             
-             
-        }
+      else{
+        right = middle-1
+      }
      
        
     }
