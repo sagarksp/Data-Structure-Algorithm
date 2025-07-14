@@ -1,22 +1,19 @@
-function secondLargest(arr){
-    let max = -Infinity;
-    let second=-Infinity;
-    let n = arr.length
 
-    for(let i=0; i<n; i++){
-        if(arr[i]>max){
-            second = max
-            max=arr[i]
-           
+function insertion(a){
+
+    for(let i=1;i<a.length;i++){
+        let current  = a[i];
+        let p = i-1
+
+        while(p>=0 && current<a[p]){
+            a[p+1] = a[p];
+            p--
         }
-         if(arr[i]> second &&arr[i]<max){
-                second=arr[i]
-            }
-         
+        a[p+1] = current
     }
-    return second
+    return a
 }
 
-// let arr = [4,9,0,2,8,7,1]
-let arr = [-10,-20,-50, -2,-1]
-console.log(secondLargest(arr))
+const a = [7,4,3,5,1,2]
+
+console.log(insertion(a))
